@@ -1,0 +1,26 @@
+.wrap-tec{
+    font-size: 12px;
+    display: flex;
+    flex-direction:row;
+    position:fixed;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+.wrap-tec img{
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;    border-radius: 50cap ;
+    background-color: var(--bg_fourth);
+
+}
+.wrap-tec img:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+    transition: all 400ms linear;
+}
+
+.wrap-boxTec{
+    margin: 20px ;
+}

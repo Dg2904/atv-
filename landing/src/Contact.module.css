@@ -1,0 +1,106 @@
+.wrap-all-contact{
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+
+.wrapH1{
+    text-align: center;
+    size: 32px;
+    position: relative;
+    left: -139px;
+    top: 40px;
+    text-shadow: 0 0 1px blue;
+    text-decoration: underline;
+}
+
+.wrapTwoDivs{
+    width: auto;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 6vw;
+}
+.wrapH2MAP{
+    position: relative;
+    left: 220px;
+    top: -200px;
+    text-shadow: 0 0 1px blue;
+
+}
+
+.wrapMap{
+    position:relative;
+    left: 100px;
+    width: 300px;
+    height: 300px;
+    border: inset;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.inputsDiv{    
+    position: relative;
+    left: 150px;
+    top: 110px;
+    width:100%;
+    padding: 2.2em;
+    height: 60vh;
+    border: 2px solid var(--bg-third);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    border-radius: 10px;
+    background-color: var(--bg_third);
+}
+.wrapLabelInput{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    gap: 2vh;
+    
+
+}
+
+.inputS1, .txtArea{
+    margin-bottom: 2vh;
+    border: none;
+    border-radius: 999px;
+    padding: 7px 10px;
+    background-color: var(--bg_fourth);
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+}
+.inputS1{
+    width: 94%;
+}
+
+.txtArea{
+   border-radius: 10px;
+   max-height: 100px;
+   height: 100px;
+   min-height: 100px;
+   width: 200px;
+   min-width:200px;
+   max-width: 200px;
+}
+
+.btnTec{
+    margin-top: 1vh;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 999px;
+    background-color: var(--bg_fourth);
+    border: 1px solid var(--text-title);
+    color: var( --text-title);
+    transition: all 200ms ease-out;
+}
+
+.btnTec:hover{
+    border: 1px solid var(--text_box);
+    color: var(--text_box);
+    box-shadow: var(--shadow);
+    transition: all 200ms ease-in;
+}

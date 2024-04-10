@@ -1,0 +1,32 @@
+.wrap_Api {
+    padding-left: 100px;
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centraliza verticalmente */
+    align-items: center; /* Centraliza horizontalmente */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.wrap_Input {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+    padding: 2em;
+}
+
+.wrap_Card {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 3em;
+    padding: 2em;
+    margin-left: auto;
+    margin-right: auto;
+}

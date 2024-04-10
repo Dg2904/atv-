@@ -1,0 +1,50 @@
+.wrap-menu{
+    background-color: var(--bg_secondary);
+    width: 6vw;
+    height: 100vh;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-size: 13px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+.wrap-menu h1{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px 16px;
+  text-decoration: none;
+  text-shadow: 2px 2px black;
+  float: left;
+  background-color: #333;
+  border-radius: 10cap;
+  box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
+.wrap-menu a{
+  background-color: #333;
+  display: block;
+box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;  color: white;
+  text-align: center;
+  text-decoration: none;
+  padding: 18px 16px;
+  border-right:1px solid #bbb;
+  border-radius: 20px;
+  opacity: 0.5;  
+  float: right;
+  transition: all 0.3s ease;
+  gap: 20px;
+}
+.wrap-menu a:hover{
+    background-color: #111;
+    opacity: 1.0;
+    transform: scale(1.1);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.wrap-menu:hover{
+  transition: all 0.5s ease;
+  opacity: 1.0;
+  
+}

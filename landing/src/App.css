@@ -1,0 +1,22 @@
+.wrap-principal {
+  position: relative;
+  height: 100vh;
+}
+
+.div_position_home {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.div_position_home h1{
+  font-size: 64px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  
+}
+
+.text-center {
+  text-align: center;
+}

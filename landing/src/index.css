@@ -1,0 +1,26 @@
+:root {
+  --text_title: #7a7a78 ;
+  --text_p: #7a7a78;
+  --text_box: #76ABAE ;
+  --bg_primary: #222831;
+  --bg_secondary: #31363F ;
+  --bg_third: #76ABAE ;
+  --bg_fourth: #EEEEEE ;
+  --shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+
+*{
+  padding: 0;
+  margin: 0;
+}
+
+body{
+  background-color: var(--bg_primary);
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+  width: auto;
+  height: 100vh;
+}
+
